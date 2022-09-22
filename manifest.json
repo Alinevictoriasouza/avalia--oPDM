@@ -1,0 +1,23 @@
+{
+    "name": "AtividadePDM",
+    "short_name": "Situação de um aluno em relação as faltas de um disciplina",
+    "icons": [
+        {
+            "src": "images/smile.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "images/sorriso.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "lang": "pt-BR",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "white"
+}
+
+

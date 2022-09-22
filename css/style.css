@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    main{
+      height: 560px;
+      width: 70%;
+      margin-top: 20px;
+      margin-left: 15%;
+      border-radius: 15px;
+      opacity: 88%;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    
+    .line{
+      height: 1px;
+      width: 100%;
+    }
+    
+    .situaçãoAluno{
+      text-align: center;
+      color: rgb(216, 169, 169);
+      margin-top: 2%;
+    }
+    
+    .titulos{
+      font-size: 20px;
+      color: rgb(216, 169, 169);
+      font-family: 'Inter';
+      text-align: center;
+      margin-top: 2%;
+    }
+    
+    .caixa{
+      height: 6%;
+      width: 60%;
+      font-size: 15px;
+      border-radius: 10px;
+      background-color: #cfb2a5;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+      align-items: center;
+      display: block;
+      margin: 0 auto;
+      border-color: rgb(0, 0, 0);
+      border-width: 0.5px;
+    }
+    
+    
+    .botao{
+      display: block;
+      margin: 0 auto;
+      margin-top: 2%;
+      border-radius: 12px;
+      color: #000000;
+      font-weight: bold;
+      background-color: #cfb2a5;
+      padding: 7px 40px;
+      border-width: 1px;
+    }
+    
+    .resultadooo{
+      color: rgb(0, 0, 0);
+      font-size: 16px;
+      text-align: center;
+      margin-top: 1% ;
+    }

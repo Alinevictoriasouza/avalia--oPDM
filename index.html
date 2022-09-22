@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8" />
+        <title>Avaliação PDM</title>
+        <link rel="apple-touch-icon" href="images/smile.png" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="white" />
+    </head>
+    <body class="fullscreen">
+        <div class="container">
+            <main>
+                <div class="situaçãoAluno">
+                  <h1>Situação de um aluno</h1>
+                </div>
+          
+                <div class="titulos">Nome da disciplina:</div>
+                <input class="caixa" type="text" id="disciplina" />
+          
+                <div class="titulos">Carga Horaria:</div>
+                <input class="caixa" type="text" id="cargaHoraria" />
+          
+                <div class="titulos">Quantidade de aulas por semana:</div>
+                <input class="caixa" type="text" id="numeroAulas" />
+          
+                <div class="titulos">Quantidade de faltas:</div>
+                <input class="caixa" type="text" id="numeroFaltas" />
+          
+                <button class="botao" onclick="Calcular()">Calcular</button>
+          
+                <div id="calculo"></div>
+          
+              </main>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>

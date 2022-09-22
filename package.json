@@ -1,0 +1,17 @@
+{
+  "name": "pdm",
+  "version": "1.0.0",
+  "description": "Situação de um aluno em relação as faltas de um disciplina",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve ."
+  },
+  "author": "Aline Souza",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^13.0.4"
+  }
+}
+
+
